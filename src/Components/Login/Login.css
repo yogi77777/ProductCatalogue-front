@@ -1,0 +1,49 @@
+.loginCompnent {
+    padding-top: var(--header-height);
+    /* border: 1px solid red; */
+    min-height: calc(100vh - var(--header-height));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+    /* background-image: url('https://picsum.photos/seed/8/1920/1080'); */
+}
+
+.loginFormCard {
+    border: 2px solid #007bff;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px;
+    height: fit-content;
+    background: white;    
+}
+
+.loginFormCard input {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #547ca7;
+}
+
+.loginFormCard input:focus {
+    border: none;
+    outline: none;
+    border: 2px solid #007bff;
+}
+
+.loginFormCard button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding:10px;
+    min-width: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
