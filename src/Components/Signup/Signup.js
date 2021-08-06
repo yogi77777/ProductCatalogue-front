@@ -34,6 +34,7 @@ export class Signup extends Component {
         .then((res)=>{return res.json()})
         .then((response)=>
         {
+           console.log(response)
            if(response.key==undefined)
            {
             var str="";
